@@ -8,7 +8,7 @@
 
 ;; Initial size
 (if window-system
-    (set-frame-size (selected-frame) 80 24))
+    (set-frame-size (selected-frame) 120 34))
 
 ;; Make duplicate buffer names contain its folder afterwards
 (require 'uniquify)
