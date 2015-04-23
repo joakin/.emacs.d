@@ -26,3 +26,7 @@
 
 ;; Use word wrap
 (setq-default word-wrap t)
+(setq-default truncate-lines t)
+
+; Show mixed tabs/spaces and trailing whitespace
+(global-whitespace-mode 1)

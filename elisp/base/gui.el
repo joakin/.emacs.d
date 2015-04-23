@@ -32,5 +32,5 @@
 
 ;; Colorscheme (theme) setting
 ; (load-theme 'cyberpunk t)
-(load-theme 'solarized-dark t)
+; (load-theme 'solarized-dark t)
 ; (load-theme 'heroku t)

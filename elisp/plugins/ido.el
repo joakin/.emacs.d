@@ -1,7 +1,6 @@
 
 ; Ido mode with fuzzy search
 (ido-mode t)
-(ido-ubiquitous-mode t)
 (defvar ido-enable-prefix nil)
 (defvar ido-enable-flex-matching t)
 (defvar ido-auto-merge-work-directories-length nil)
@@ -19,3 +18,6 @@
   (define-key ido-completion-map (kbd "C-n") 'ido-next-match)
   (define-key ido-completion-map (kbd "C-p") 'ido-prev-match))
 (add-hook 'ido-setup-hook 'ido-define-keys)
+
+(nmap "SPC f" 'ido-find-file)
+(nmap "SPC b" 'ido-switch-buffer)

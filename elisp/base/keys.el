@@ -13,8 +13,8 @@
 (global-set-key (kbd "C-M-%") 'query-replace)
 
 ;; Font size
-(define-key global-map (kbd "C-=") '(lambda () (interactive) (text-scale-increase 1)))
-(define-key global-map (kbd "C--") '(lambda () (interactive) (text-scale-decrease 1)))
+(define-key global-map (kbd "C-=") '(lambda () (interactive) (text-scale-increase 0.5)))
+(define-key global-map (kbd "C--") '(lambda () (interactive) (text-scale-decrease 0.5)))
 
 ;; Turn on the menu bar for exploring new modes
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
@@ -23,8 +23,8 @@
 (global-set-key (kbd "C-x C-i") 'imenu)
 
 ;; Cleaning buffers
-(global-set-key (kbd "C-c f c") 'j-cleanup-buffer)
-(global-set-key (kbd "C-c f t") 'j-untabify-buffer)
-(global-set-key (kbd "C-c f i") 'j-indent-buffer)
-(global-set-key (kbd "C-c i d") 'j-insert-date)
+; (global-set-key (kbd "C-c f c") 'j-cleanup-buffer)
+; (global-set-key (kbd "C-c f t") 'j-untabify-buffer)
+; (global-set-key (kbd "C-c f i") 'j-indent-buffer)
+; (global-set-key (kbd "C-c i d") 'j-insert-date)
 
